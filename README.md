@@ -1,60 +1,97 @@
-# Eventlink
+# EventLink 🎉
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
+A streamlined web application for creating private events and sending personalized invitation links to guests. Built with Angular, Firebase, and Angular Material.
 
-## Development server
+## Live Demo
 
-To start a local development server, run:
+**[eventlink.vercel.app/](https://eventlink-delta.vercel.app/ "Check out live deployment")**
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Project Vision
 
-## Code scaffolding
+EventLink aims to solve the hassle of event planning by providing a simple, elegant solution for private gatherings. Whether it's a birthday party, family reunion, or small business event, EventLink will make invitation management effortless.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Tech Stack
 
-```bash
-ng generate component component-name
-```
+- **Frontend:** Angular + TypeScript
+- **UI Framework:** Angular Material
+- **Backend:** Firebase (Authentication + Firestore)
+- **Deployment:** Vercel
+- **Styling:** SCSS with Material Design
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## Local Development Setup
 
-## Building
+### Prerequisites
 
-To build the project run:
+- **Node.js** (v16 or higher)
+- **npm**
+- **Angular CLI** (`npm install -g @angular/cli`)
 
-```bash
-ng build
-```
+### Getting Started
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. **Clone the repository**
 
-## Running unit tests
+   ```bash
+   git clone https://github.com/your-username/eventlink-mvp.git
+   cd eventlink-mvp
+   ```
+2. **Install dependencies**
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+   ```bash
+   npm install
+   ```
+3. **Start the development server**
 
-```bash
-ng test
-```
+   ```bash
+   ng serve
+   ```
+4. **Open your browser**
 
-## Running end-to-end tests
+   Navigate to `http://localhost:4200`
 
-For end-to-end (e2e) testing, run:
+## Design Goals
 
-```bash
-ng e2e
-```
+- **Mobile-First** - Optimized for all devices
+- **Intuitive** - Simple, clean user interface
+- **Fast** - Optimized performance with lazy loading
+- **Accessible** - WCAG compliant design
+- **Secure** - Privacy-focused with secure authentication
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## Contributing
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# eventlink
+This project is in early development. Contributions, ideas, and feedback are welcome!
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## Vision Statement
+
+EventLink will transform how people organize private gatherings by eliminating the complexity of invitation management. Our goal is to create a tool so intuitive and reliable that event planning becomes a joy, not a chore.
+
+**Perfect for:**
+
+- Birthday parties and celebrations
+- Family gatherings and reunions
+- Small business events and meetups
+- Graduation parties and milestones
+- Housewarming parties and get-togethers
+
+---
+
+**Built with ❤️ for seamless event experiences**
