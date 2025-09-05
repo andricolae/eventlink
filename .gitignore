@@ -48,4 +48,4 @@ Thumbs.db
 
 .vercel
 
-/src/app/app.config.ts
+/src/environment.ts
